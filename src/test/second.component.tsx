@@ -8,7 +8,7 @@ const EricComponent = () => {
 //    const arr = [1, 2, 3, true, {name: "Eric"}]
     //jsx
     return (
-        <did>
+        <div>
             <h1>Hello: {JSON.stringify(info)}</h1>
             <img
                 src="https://i.imgur.com/yXOvdOSs.jpg"
@@ -22,7 +22,7 @@ const EricComponent = () => {
                     <li>Improve the spectrum technology</li>
                 </ul>
 
-        </did>
+        </div>
     )
 }
 
